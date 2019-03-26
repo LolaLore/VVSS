@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,126 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/plir2166MV.control.BibliotecaController">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>plir2166MV.control.BibliotecaController</OriginalElement>
-              <nodes>
-                <node x="113.625" y="433.5">plir2166MV.util.Validator</node>
-                <node x="611.0" y="623.0">plir2166MV.repository.repo.CartiRepo</node>
-                <node x="0.0" y="881.0">plir2166MV.view.Consola</node>
-                <node x="124.92708333333337" y="0.0">plir2166MV.model.Carte</node>
-                <node x="343.625" y="411.0">plir2166MV.repository.repoInterfaces.CartiRepoInterface</node>
-                <node x="359.3645833333333" y="1160.0">plir2166MV.App</node>
-                <node x="205.92708333333337" y="623.0">plir2166MV.control.BibliotecaController</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="plir2166MV.view.Consola" target="plir2166MV.control.BibliotecaController">
-                  <point x="34.375" y="-114.5" />
-                  <point x="171.875" y="851.0" />
-                  <point x="244.42708333333337" y="851.0" />
-                  <point x="-115.5" y="104.0" />
-                </edge>
-                <edge source="plir2166MV.repository.repo.CartiRepo" target="plir2166MV.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="-102.75" y="-104.0" />
-                  <point x="713.75" y="598.0" />
-                  <point x="703.25" y="598.0" />
-                  <point x="154.125" y="81.0" />
-                </edge>
-                <edge source="plir2166MV.control.BibliotecaController" target="plir2166MV.model.Carte">
-                  <point x="-38.5" y="-104.0" />
-                  <point x="321.42708333333337" y="598.0" />
-                  <point x="333.125" y="598.0" />
-                  <point x="333.125" y="391.0" />
-                  <point x="309.26041666666674" y="391.0" />
-                  <point x="26.33333333333337" y="180.5" />
-                </edge>
-                <edge source="plir2166MV.util.Validator" target="plir2166MV.model.Carte">
-                  <point x="0.0" y="-58.5" />
-                  <point x="218.125" y="391.0" />
-                  <point x="256.59375" y="391.0" />
-                  <point x="-26.33333333333337" y="180.5" />
-                </edge>
-                <edge source="plir2166MV.control.BibliotecaController" target="plir2166MV.util.Validator">
-                  <point x="-115.5" y="-104.0" />
-                  <point x="244.42708333333337" y="598.0" />
-                  <point x="218.125" y="598.0" />
-                  <point x="0.0" y="58.5" />
-                </edge>
-                <edge source="plir2166MV.App" target="plir2166MV.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="42.25" y="-25.5" />
-                  <point x="486.1145833333333" y="1130.0" />
-                  <point x="600.5" y="1130.0" />
-                  <point x="51.375" y="81.0" />
-                </edge>
-                <edge source="plir2166MV.control.BibliotecaController" target="plir2166MV.repository.repoInterfaces.CartiRepoInterface">
-                  <point x="115.5" y="-104.0" />
-                  <point x="475.42708333333337" y="598.0" />
-                  <point x="497.75" y="598.0" />
-                  <point x="-51.375" y="81.0" />
-                </edge>
-                <edge source="plir2166MV.view.Consola" target="plir2166MV.model.Carte">
-                  <point x="-34.375" y="-114.5" />
-                  <point x="103.125" y="391.0" />
-                  <point x="203.92708333333337" y="391.0" />
-                  <point x="-79.0" y="180.5" />
-                </edge>
-                <edge source="plir2166MV.repository.repo.CartiRepo" target="plir2166MV.model.Carte">
-                  <point x="102.75" y="-104.0" />
-                  <point x="919.25" y="381.0" />
-                  <point x="414.59375" y="381.0" />
-                  <point x="131.66666666666663" y="180.5" />
-                </edge>
-                <edge source="plir2166MV.repository.repoInterfaces.CartiRepoInterface" target="plir2166MV.model.Carte">
-                  <point x="0.0" y="-81.0" />
-                  <point x="549.125" y="391.0" />
-                  <point x="361.92708333333337" y="391.0" />
-                  <point x="79.0" y="180.5" />
-                </edge>
-                <edge source="plir2166MV.App" target="plir2166MV.control.BibliotecaController">
-                  <point x="-14.083333333333371" y="-25.5" />
-                  <point x="429.78124999999994" y="1140.0" />
-                  <point x="414.35069444444446" y="1140.0" />
-                  <point x="414.35069444444446" y="861.0" />
-                  <point x="398.42708333333337" y="861.0" />
-                  <point x="38.5" y="104.0" />
-                </edge>
-                <edge source="plir2166MV.App" target="plir2166MV.view.Consola">
-                  <point x="-42.25" y="-25.5" />
-                  <point x="401.6145833333333" y="1130.0" />
-                  <point x="206.25" y="1130.0" />
-                  <point x="68.75" y="114.5" />
-                </edge>
-                <edge source="plir2166MV.App" target="plir2166MV.repository.repo.CartiRepo">
-                  <point x="70.41666666666663" y="-25.5" />
-                  <point x="514.28125" y="1140.0" />
-                  <point x="816.5" y="1140.0" />
-                  <point x="0.0" y="104.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.5101543460601138" x="511.0" y="595.4999999999999" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repo/CartiRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="1156">
+              <caret line="76" column="57" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repoInterfaces/CartiRepoInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            <state relative-caret-position="119">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/model/Carte.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="144" column="27" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="14" column="118" selection-start-line="14" selection-start-column="118" selection-end-line="14" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
@@ -192,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/control/BibliotecaController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,11 +85,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/plir2166MV/control/BibliotecaControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2057">
+              <caret line="130" column="52" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/util/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="544">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -212,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/view/Consola.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="1207">
+              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,6 +121,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -241,16 +136,17 @@
         <option value="$PROJECT_DIR$/src/main/java/repository/repoInterfaces/CartiRepoInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/repo/CartiRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/repoMock/CartiRepoMock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/plir2166MV/util/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/plir2166MV/repository/repoMock/CartiRepoMock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/plir2166MV/model/Carte.java" />
         <option value="$PROJECT_DIR$/cartiBD.dat" />
         <option value="$PROJECT_DIR$/src/main/java/plir2166MV/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/plir2166MV/repository/repoInterfaces/CartiRepoInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/plir2166MV/repository/repo/CartiRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/plir2166MV/view/Consola.java" />
         <option value="$PROJECT_DIR$/src/main/java/plir2166MV/control/BibliotecaCtrl.java" />
         <option value="$PROJECT_DIR$/src/main/java/plir2166MV/control/BibliotecaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/plir2166MV/view/Consola.java" />
+        <option value="$PROJECT_DIR$/src/main/java/plir2166MV/util/Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/plir2166MV/model/Carte.java" />
+        <option value="$PROJECT_DIR$/src/test/java/plir2166MV/control/BibliotecaControllerTest.java" />
       </list>
     </option>
   </component>
@@ -261,7 +157,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -271,8 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -371,6 +267,36 @@
               <item name="plir2166MV" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="plir2166" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plir2166" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plir2166" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plir2166" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plir2166" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plir2166" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="plir2166MV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plir2166" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plir2166" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="plir2166MV" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -380,25 +306,37 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551966756729" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553641996348" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="plir2166MV.model" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="plir2166MV.control" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="plir2166MV" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Facultate_semestrul_VI\VVSS\plir2166\src\main\java\plir2166MV" />
+      <recent name="D:\Facultate_semestrul_VI\VVSS\plir2166\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="util" />
       <recent name="model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Facultate_semestrul_VI\VVSS\plir2166\src\main\java\plir2166MV" />
-      <recent name="D:\Facultate_semestrul_VI\VVSS\plir2166\src\main\java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="plir2166MV.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BibliotecaControllerTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="plir2166MV.App" />
       <module name="plir2166" />
@@ -427,8 +365,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BibliotecaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plir2166" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="plir2166MV.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="plir2166MV.control" />
+      <option name="MAIN_CLASS_NAME" value="plir2166MV.control.BibliotecaControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BibliotecaControllerTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -445,18 +399,33 @@
       <updated>1551796714288</updated>
       <workItem from="1551796717799" duration="943000" />
       <workItem from="1551867643115" duration="3666000" />
-      <workItem from="1551941394768" duration="6242000" />
+      <workItem from="1551941394768" duration="6460000" />
+      <workItem from="1551968827013" duration="234000" />
+      <workItem from="1553004885363" duration="993000" />
+      <workItem from="1553634757498" duration="2536000" />
+      <workItem from="1553638966312" duration="2537000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BibliotecaControllerTest - 2019.03.27 at 01h 04m 33s.xml">
+      <configuration name="BibliotecaControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotecaControllerTest - 2019.03.27 at 01h 05m 57s.xml">
+      <configuration name="BibliotecaControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BibliotecaControllerTest - 2019.03.27 at 01h 11m 59s.xml">
+      <configuration name="BibliotecaControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10851000" />
+    <option name="totallyTimeSpent" value="17369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19029851" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33369803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,7 +434,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26435536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26586434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,6 +445,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -498,23 +468,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repoMock/CartiRepoMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cartiBD.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repoMock/CartiRepoMock.java" />
     <entry file="uml://JAVA/plir2166MV.repository.repo.CartiRepo">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -550,62 +504,11 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="84.5" y="125.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="126.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/model/Carte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="144" column="27" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repo/CartiRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repoInterfaces/CartiRepoInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/util/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/view/Consola.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,37 +527,17 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="-92.99999999999886" y="157.1969696969697" />
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="-93.0" y="157.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Methods</Category>
-            <Category>Inner Classes</Category>
             <Category>Properties</Category>
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/control/BibliotecaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,11 +547,11 @@
           <ID>JAVA</ID>
           <OriginalElement>plir2166MV.control.BibliotecaController</OriginalElement>
           <nodes>
-            <node x="113.625" y="433.5">plir2166MV.util.Validator</node>
+            <node x="113.62500000000006" y="433.5">plir2166MV.util.Validator</node>
             <node x="611.0" y="623.0">plir2166MV.repository.repo.CartiRepo</node>
             <node x="0.0" y="881.0">plir2166MV.view.Consola</node>
             <node x="124.92708333333337" y="0.0">plir2166MV.model.Carte</node>
-            <node x="343.625" y="411.0">plir2166MV.repository.repoInterfaces.CartiRepoInterface</node>
+            <node x="343.62500000000006" y="411.0">plir2166MV.repository.repoInterfaces.CartiRepoInterface</node>
             <node x="359.3645833333333" y="1160.0">plir2166MV.App</node>
             <node x="205.92708333333337" y="623.0">plir2166MV.control.BibliotecaController</node>
           </nodes>
@@ -689,21 +572,21 @@
             <edge source="plir2166MV.control.BibliotecaController" target="plir2166MV.model.Carte">
               <point x="-38.5" y="-104.0" />
               <point x="321.42708333333337" y="598.0" />
-              <point x="333.125" y="598.0" />
-              <point x="333.125" y="391.0" />
+              <point x="333.12500000000006" y="598.0" />
+              <point x="333.12500000000006" y="391.0" />
               <point x="309.26041666666674" y="391.0" />
               <point x="26.33333333333337" y="180.5" />
             </edge>
             <edge source="plir2166MV.util.Validator" target="plir2166MV.model.Carte">
               <point x="0.0" y="-58.5" />
-              <point x="218.125" y="391.0" />
+              <point x="218.12500000000006" y="391.0" />
               <point x="256.59375" y="391.0" />
               <point x="-26.33333333333337" y="180.5" />
             </edge>
             <edge source="plir2166MV.control.BibliotecaController" target="plir2166MV.util.Validator">
               <point x="-115.5" y="-104.0" />
               <point x="244.42708333333337" y="598.0" />
-              <point x="218.125" y="598.0" />
+              <point x="218.12500000000006" y="598.0" />
               <point x="0.0" y="58.5" />
             </edge>
             <edge source="plir2166MV.App" target="plir2166MV.repository.repoInterfaces.CartiRepoInterface">
@@ -715,7 +598,7 @@
             <edge source="plir2166MV.control.BibliotecaController" target="plir2166MV.repository.repoInterfaces.CartiRepoInterface">
               <point x="115.5" y="-104.0" />
               <point x="475.42708333333337" y="598.0" />
-              <point x="497.75" y="598.0" />
+              <point x="497.75000000000006" y="598.0" />
               <point x="-51.375" y="81.0" />
             </edge>
             <edge source="plir2166MV.view.Consola" target="plir2166MV.model.Carte">
@@ -757,7 +640,7 @@
               <point x="0.0" y="104.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.5101543460601138" x="511.0" y="595.4999999999999" />
+          <settings layout="Hierarchic Group" zoom="0.5101543460601138" x="511.0" y="835.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -771,5 +654,165 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repo/CartiRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="76" column="57" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartiBD.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/util/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/view/Consola.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/repository/repoInterfaces/CartiRepoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/model/Carte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="118" selection-start-line="14" selection-start-column="118" selection-end-line="14" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/plir2166MV/control/BibliotecaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/plir2166MV/control/BibliotecaControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="130" column="52" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>plir2166</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: backport-util-concurrent:backport-util-concurrent:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

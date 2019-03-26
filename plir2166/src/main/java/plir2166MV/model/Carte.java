@@ -12,6 +12,14 @@ public class Carte {
 	private List<String> cuvinteCheie;
 	private String editura;
 
+	public Carte(String titlu, List<String> referenti, String anAparitie, List<String> cuvinteCheie, String editura) {
+		this.titlu = titlu;
+		this.referenti = referenti;
+		this.anAparitie = anAparitie;
+		this.cuvinteCheie = cuvinteCheie;
+		this.editura = editura;
+	}
+
 	public String getEditura() {
 		return editura;
 	}

@@ -30,7 +30,7 @@ public class Validator {
 				throw new Exception("Cuvant cheie invalid!");
 		}
 		if(!Validator.isNumber(c.getAnAparitie()))
-			throw new Exception("Editura invalid!");
+			throw new Exception("An invalid!");
 	}
 	
 	public static boolean isNumber(String s){

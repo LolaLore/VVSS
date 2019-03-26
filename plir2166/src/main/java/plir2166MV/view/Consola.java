@@ -98,6 +98,8 @@ public class Consola {
 			}
 			
 			bibliotecaCtrl.adaugaCarte(c);
+
+			System.out.println("Cartea a fost adaugata cu succes");
 			
 		}catch(Exception e){
 			e.printStackTrace();
