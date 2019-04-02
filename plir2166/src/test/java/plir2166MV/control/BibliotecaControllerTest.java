@@ -6,6 +6,8 @@ import plir2166MV.model.Carte;
 import plir2166MV.repository.repo.CartiRepo;
 import plir2166MV.repository.repoInterfaces.CartiRepoInterface;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,8 +30,12 @@ public class BibliotecaControllerTest {
         c.add("poezii");
         c.add("luceafarul");
         try{
+            Integer size = controller.getCarti().size();
             controller.adaugaCarte(new Carte("Poezii",r,"2010",c,"corint"));
-            assertTrue(true);
+            if(controller.getCarti().size() == size + 1)
+                assertTrue(true);
+            else
+                assertTrue(false);
         }catch (Exception s){
             assertTrue(false);
         }
@@ -134,4 +140,5 @@ public class BibliotecaControllerTest {
             assertTrue(true);
         }
     }
+
 }

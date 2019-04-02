@@ -17,3 +17,9 @@ n
 >src/test/java/plir2166MV/control/BibliotecaControllerTest.java,9\7\97c6b64c4daaf5179a148cfb93940a399c9324e4
 ;
 cartiBD.dat,5\a\5a905991fb02c5e249d63c3c2575a7009b0a12d1
+U
+%src/test/java/plir2166MV/AppTest.java,c\4\c4df3ecaeaab0a87fd829444f298808ece85920d
+o
+?src/test/java/plir2166MV/control/BibliotecaControllerTest2.java,f\3\f3b092a4ea076aeb48726c240669319eb6fd08e2
+>
+cartiTeste.txt,1\e\1ed0e48c644a8abb6e8447b64ac22ec8ce629f3d

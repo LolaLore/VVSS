@@ -19,7 +19,11 @@ public class CartiRepo implements CartiRepoInterface {
 		URL location = CartiRepo.class.getProtectionDomain().getCodeSource().getLocation();
         System.out.println(location.getFile());
 	}
-	
+
+	public CartiRepo(String numeFisier) {
+		this.numeFisier = numeFisier;
+	}
+
 	@Override
 	public void adaugaCarte(Carte c) {
 		BufferedWriter bw = null;
