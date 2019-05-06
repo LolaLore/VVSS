@@ -138,10 +138,10 @@ public class Consola {
 		System.out.println("\n\n\n");
 		try{
 			String line;
-			do{
+//			do{
 				System.out.println("An aparitie:");
 				line= consoleBufferedReader.readLine();
-			}while(!line.matches("[10-9]+"));
+//			}while(!line.matches("[10-9]+"));
 			for(Carte c: bibliotecaCtrl.getCartiOrdonateDinAnul(line)){
 				System.out.println(c);
 			}

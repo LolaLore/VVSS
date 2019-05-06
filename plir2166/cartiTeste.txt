@@ -1,1 +1,1 @@
-titlul;;2000;corint;cuvint
+titlul;sadoveanu;2000;corint;cuvint

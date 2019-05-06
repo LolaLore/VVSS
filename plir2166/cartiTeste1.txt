@@ -8,7 +8,8 @@ Povesti;Mihai Eminescu,Ion Caragiale,Ion Creanga,Tudor;1990;Corint;povesti,poves
 poezii;eminescu,arghezii;1997;corint;poezii
 Poezii;Eminescu;2010;corint;poezii,luceafarul
 Poezii;Eminescu;2010;corint;poezii,luceafarul
-aa;a;1234;aaa;aa
-aaaaaaaaaa;a;1234;aaa;aa
+Poezii;Eminescu;2010;corint;poezii,luceafarul
+Poezii;Eminescu;2010;corint;poezii,luceafarul
+Poezii;Eminescu;2010;corint;poezii,luceafarul
 Poezii;Eminescu;2010;corint;poezii,luceafarul
 Poezii;Eminescu;2010;corint;poezii,luceafarul
